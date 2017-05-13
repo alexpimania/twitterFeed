@@ -23,8 +23,8 @@ userameFont = ImageFont.truetype(font=fontLocation, size=150)
 messageFont = ImageFont.truetype(font=fontLocation, size=75)
 
 #Initialising and authenticating to Twitter API 
-auth = tweepy.auth.OAuthHandler("kqSndhybqhsSBcrY83ZpK2dkH", "EoJm0OmlZZmyhJOln7vIJg8en97NhVZQx0u9QSKKI7T9B7hvUg")
-auth.set_access_token("3685943952-BTfjGnef7QNdqnh9EMHtO5SInUcE2ZaROX9MMi8", "vD1q0887Cof3N8GKNQMHHW2Ad5vjFJCTsBONJZ47zNqC9")
+auth = tweepy.auth.OAuthHandler("a", "b")
+auth.set_access_token("c", "d")
 api = tweepy.API(auth)
 
 while True:
